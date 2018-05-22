@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HermeticMagician>
+    <Ability>
+        <Name>Astrology</Name>
+        <Rank1>
+            Takes 1d3 hours to use. Roll a Hermetics Check with Will. For every 3 successes, you may ask the GM one of the following questions, choosing a subject of inquiry (subject requires GM approval):
+                *What about the subject is not as it seems?
+                *Who possesses the knowledge I seek about the subject?
+                *Where is the subject now?
+            Each asked question costs 2 additional Humanity. You may only ask questions once per Session with this Rank.
+        </Rank1>
+        <Rank2>
+            Takes 1d3 hours to use. Roll a Hermetics Check with Will. For every 2 successes, you may ask the GM one of the following questions, choosing a subject of inquiry (subject requires GM approval):
+                *What about the subject is not as it seems?
+                *Who possesses the knowledge I seek about the subject?
+                *Where is the subject now?
+                *What will happen to or around the subject in the immediate future?
+            Each asked question costs 2 additional Humanity. You may only ask questions once per Session with this Rank.
+        </Rank2>
+        <Rank3>
+            Passive. Between each Scene, you may roll 1 die. On a positive result, you may ask the GM one of the previously listed questions. You may ask 1 each question once per Session in this way, and this costs no Humanity
+        </Rank3>
+        <MasteryA>
+            Each asked question costs only 1 Humanity.
+        </MasteryA>
+        <MasteryB>
+            Reduce the number of Successes needed for a question by 1.
+        </MasteryB>
+        <Overload>
+            Pay 5 Humanity. Use Rank 1 or Rank 2, taking only 10 minutes. Automatically Ask 3 questions. Does not count towards session question limit.
+        </Overload>
+    </Ability>
+    <Ability>
+        <Name>Theurgy</Name>
+        <Rank1>
+            Takes 1 hour to use. For the rest of the day, you gain a Knowledge or Craft Skill at Rank 3, or a +3 Ranks to such a Skill you already possess. While this effect persists, you may pay 1 Sanity to gain 3 Temporary Strain, once per Scene. This temporary Strain can be used on any check, but it must be used on your next action or be lost.
+        </Rank1>
+        <Rank2>
+            Takes 1 hour to use. For the rest of the day, you gain a Knowledge or Craft Skill at Rank 5, 2 Knowledge or Craft Skills at 3, or a +3 Ranks to 2 such a Skills you already possess. While this effect persists, you may pay 2 Sanity to gain 1 Memento Mori, once per Scene. This Memento Mori must be used on your next action or be lost.
+        </Rank2>
+        <Rank3>
+            Passive. +2 to all Checks with Knowledge/Craft Skills affected by Theurgy. +1 to Checks affected by Temporary Strain or Memento Mori gained through Theurgy (Actions that use Initiative gained by these Memento Mori count as affected).
+        </Rank3>
+        <MasteryA>
+            It costs 1 less Sanity to gain Temporary Strain or Memento Mori through Theurgy.
+        </MasteryA>
+        <MasteryB>
+            Ranks 1 and 2 cost 5 Initiative to use.
+        </MasteryB>
+        <Overload>
+            Pay 5 Humanity. Once per Scene, you may take a +3 on a Knowledge/Craft Skill effected by Theurgy, or on a check boosted by Temporary Strain or Memento Mori gained through Theurgy.
+        </Overload>
+    </Ability>
+    <Ability>
+    <Ability>
+        <Name>Panacea</Name>
+        <Rank1>
+            Costs 3 Initiative to use. Humanity is paid out of combat and Panacea functions as an item. When a Panacea is created, the creator specifies whether it affects Mental or Physical damage.  The entity that drinks it is healed for 1d3 wounds of the chosen type and is cured of any one magickal effect, poison, or non-terminal disease. Entities may only benefit from Panacea once per day
+        </Rank1>
+        <Rank2>
+            Costs 3 Initiative to use. Humanity is paid out of combat and Panacea functions as an item. When a Panacea is created, the creator specifies whether it effects Mental or Physical damage.  The entity that drinks it is healed for 1d3+1 wounds of the chosen type and is cured of any one magickal effect, poison, or non-terminal disease. They also gain +1 to checks against Bleeding and Daze for the rest of the Scene. Entities may only benefit from Panacea once per day.
+        </Rank2>
+        <Rank3>
+            Passive. Panacea recharges 1d3 Strain of all types.
+        </Rank3>
+        <MasteryA>
+            Entities may benefit from your Panacea twice per day.
+        </MasteryA>
+        <MasteryB>
+            An entity that uses your Panacea recharges +2 Strain of Each type.
+        </MasteryB>
+        <Overload>
+            Spend 5 Humanity out of combat to create one use of Panacea that, over the course of a week, reduces a permanent wound penalty by 1. This does not count towards the limit of panacea per day.
+        </Overload>
+    </Ability>
+        <Name>Alchemist's Fire</Name>
+        <Rank1>
+            Takes an hour to make. Humanity is paid out of combat and Alchemist's Fire functions as an item. Ranged Attack using Athletics Skill (costs 2 Initiative), targeting an area up to 1 area away. Functions as an explosive, dealing +0/4 Damage that cannot be prevented by any means (aside from magickal damage reduction). Each target hit rolls luck. On non-positive result, they take an additional 4 physical damage at the end of the Round, identically unpreventable to the initial damage. This luck roll recurs at the end of every round until a negative result occurs. This damage does not cause bleeding. Enemies hit for the full damage must check Stability or Discipline against 4 or lose 4 Initiative.
+        </Rank1>
+        <Rank2>
+            Takes an hour to make. Humanity is paid out of combat and Alchemist's Fire functions as an item. Ranged Attack using Athletics Skill (costs 2 Initiative), targeting an area up to 1 area away. Functions as an explosive, dealing +0/6 Damage that cannot be prevented by any means (aside from magickal damage reduction). Each target hit rolls luck. On non-positive result, they take an additional 6 physical damage at the end of the Round, identically unpreventable to the initial damage. This luck roll recurs at the end of every round until a negative result occurs. This damage does not cause bleeding. Enemies hit for the full damage must check Stability or Discipline against 6 or lose 4 Initiative.
+        </Rank2>
+        <Rank3>
+            Passive. Victims' rolls against the Initiative loss are at -2.
+        </Rank3>
+        <MasteryA>
+            +4/+0 damage.
+        </MasteryA>
+        <MasteryB>
+            Victims are at -1 to the luck roll to end the subsequent damage.
+        </MasteryB>
+        <Overload>
+            Pay 5 Humanity out of combat to create one use of Alchemist's Fire that actively attempts to ignite all nearby entities. At the end of each Round, all entities in the same area as one burning from this Alchemist's Fire must roll Luck, being set ablaze on a non-positive result and rolling Luck at reach round's end as normal to end the sustained damage effect.
+        </Overload>
+    </Ability>
+    <Ability>
+        <Name>Homunculus</Name>
+        <Rank1>
+            Takes 1 week of uninterrupted work. Invest up to 10 Humanity (you may not recover this Humanity until the Homunculus is destroyed or voluntarily rendered inert) to create a Homunculus in the form of a synthetic animal or humanoid. Homunculi serve their creators unconditionally, and are intelligent but have no speech, and may communicate in writing or gesture. Humanity is spent on a 1 for 1 basis to buy the Homunculus's Attributes (A Homunculus functions identically to a player character in terms of Attributes). You must choose a specialization for your Homunculus from among the following:
+                Knowledge:
+                    Homunculus has all Knowledge Skills at Capable, and can make 1 Knowledge check a day on your behalf.
+                Alchemy:
+                    Homunculus can make one Panacea or Alchemist's Fire (Rank 1, no masteries or overload) per day.
+                Scouting:
+                    Homunculus has the Awareness, Athletics, Security, and Stealth Skills at Capable, and may undertake sneaky reconnaissance on your behalf.
+                Combat:
+                    Homunculus has a natural melee weapon at +2/(+2) damage, has an Attack and Dodge Skill at Capable, and may Move and Attack once per Round.
+                Intercession:
+                    Homunculus is able to communicate with spiritual or alien entities, and may do so for one conversation per day. Homunculus is able to communicate your intentions (or deceptions) perfectly, and you make any social checks that would be required in a conversation with a human.
+            Homunculi do not recover Strain or Wounds normally. The creator must spend 1 hour of work to repair a Wound and/or restore 1d3 Strain of all types to the Homunculus.
+        </Rank1>
+        <Rank2>
+            Takes 2 weeks of work, the second of which must be uninterrupted. Identical to Rank 1, but may Invest up to 20 Humanity, either all in one homunculus, or 10 and 10 in two seperate homunculi.
+        </Rank2>
+        <Rank3>
+            Passive. Each specialization is augmented in the following ways:
+            Knowledge: Up to 2 Knowledge Checks per day.
+            Alchemy: May create Panacea or Alchemist's Fire up to Rank 3.
+            Scouting: Skills increased to Rank 4.
+            Combat: Weapon improved to +4/(+4) Damage.
+            Intercession: You gain +1 to any social checks made during the intercession.
+        </Rank3>
+        <MasteryA>
+            A Homunculus may have 2 specializations.
+        </MasteryA>
+        <MasteryB>
+            You take only 1 day to make a Homunculus.
+        </MasteryB>
+        <Overload>
+            Destroy your Homunculus at the cost of 3 Initiative to regain all Humanity invested in it. This counts as an explosion with +8/+8 damage in same area, +4/2 damage in adjacent areas.
+        </Overload>
+    </Ability>
+    <Ability>
+        <Name>Philosopher's Stone (Unique)</Name>
+        <Rank1>
+            Takes 1 month of work to create. Invest 10 Humanity to create a Philosopher's Stone. As long as you carry it with you, you cease to age, and your abilities are affected in the following ways (pick 3):
+                Astrology:
+                    You may re-roll the Hermetics check once.
+                Theurgy:
+                    Reduce Sanity costs by up to 2 per day.
+                Panacea:
+                    Make 2 Panacea for each use of the ability.
+                Alchemist's Fire:
+                    Make 2 Alchemist's Fire for each use of the ability.
+                Homunculus:
+                    May have +1 Specializations.
+        </Rank1>
+        <Rank2>
+            Invest 20 Humanity. Identical to Rank 1, but gain 2 of the following additional bonuses:
+                Astrology:
+                    +2 on the Hermetics check.
+                Theurgy:
+                    1/3 chance to double Temporary Strain and Memento Mori gained through Theurgy.
+                Panacea:
+                    Panacea allows user to ignore all Wound penalties for 1 Round upon use, and grants a +1 to rolls against  Bleeding and Daze for the remainder of the Scene.
+                Alchemist's Fire:
+                    Max throw range increased to 2 areas.
+                Homunculus:
+                    Has +10 effective invested Humanity, allowing 10 AP for 0 Humanity, 20 AP for 10 Humanity.
+        </Rank2>
+        <Rank3>
+            Passive. Between adventures, heal 2 additional Wounds of each type.
+        </Rank3>
+        <MasteryA>
+            Investment of Humanity reduced by 5.
+        </MasteryA>
+        <MasteryB>
+            Instead select 4 bonuses at Rank 1 and 3 additional bonuses at Rank 2.
+        </MasteryB>
+        <Overload>
+            Pay 5 Humanity, 5 Initiative, and 5 Spiritual Strain. For the next 3 Rounds, gain +4 magickal armor and regain 2d3 physical wounds at the end of each Round.
+        </Overload>
+    </Ability>
+    <HumanityEffects>
+        <Fine>Subject's gaze and personal gravity are a bit more intense than normal.</Fine>
+        <Wierd>Subject displays tendencies toward obsession and compulsion.</Wierd>
+        <Screwed>Subject often displays cold indifference to nearly all matters not related to their craft.</Screwed>
+        <Fucked>Subject must fight hard in order to devote efforts to anything but the Great Work.</Fucked>
+        <Dead>Subject completes the Great Work, ascending beyond our understanding. If recovery is possible, it must be by the subject's volition. No records exist of such a happening.</Dead>
+    </HumanityEffects>
+</HermeticMagician>
+
